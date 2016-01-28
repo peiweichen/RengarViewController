@@ -35,6 +35,10 @@
 		F4CB08E71C5A5DF8007CB846 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */; };
 		F4CB08EA1C5A5E4D007CB846 /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */; };
 		F4CB08ED1C5A5E9C007CB846 /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08EC1C5A5E9C007CB846 /* SZTextView.m */; };
+		F4CB08F21C5A6377007CB846 /* 1.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08EE1C5A6377007CB846 /* 1.pic.jpg */; };
+		F4CB08F31C5A6377007CB846 /* 2.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08EF1C5A6377007CB846 /* 2.pic.jpg */; };
+		F4CB08F41C5A6377007CB846 /* 3.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08F01C5A6377007CB846 /* 3.pic.jpg */; };
+		F4CB08F51C5A6377007CB846 /* 4.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08F11C5A6377007CB846 /* 4.pic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +118,10 @@
 		F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBCheckmarkView.m; path = ../QBCheckmarkView.m; sourceTree = "<group>"; };
 		F4CB08EB1C5A5E9C007CB846 /* SZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZTextView.h; path = ../SZTextView.h; sourceTree = "<group>"; };
 		F4CB08EC1C5A5E9C007CB846 /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZTextView.m; path = ../SZTextView.m; sourceTree = "<group>"; };
+		F4CB08EE1C5A6377007CB846 /* 1.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.pic.jpg; sourceTree = "<group>"; };
+		F4CB08EF1C5A6377007CB846 /* 2.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.pic.jpg; sourceTree = "<group>"; };
+		F4CB08F01C5A6377007CB846 /* 3.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.pic.jpg; sourceTree = "<group>"; };
+		F4CB08F11C5A6377007CB846 /* 4.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.pic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +178,10 @@
 				F4CB087C1C5A5D13007CB846 /* AppDelegate.m */,
 				F4CB087E1C5A5D13007CB846 /* ViewController.h */,
 				F4CB087F1C5A5D13007CB846 /* ViewController.m */,
+				F4CB08EE1C5A6377007CB846 /* 1.pic.jpg */,
+				F4CB08EF1C5A6377007CB846 /* 2.pic.jpg */,
+				F4CB08F01C5A6377007CB846 /* 3.pic.jpg */,
+				F4CB08F11C5A6377007CB846 /* 4.pic.jpg */,
 				F4CB08811C5A5D13007CB846 /* Main.storyboard */,
 				F4CB08841C5A5D13007CB846 /* Assets.xcassets */,
 				F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */,
@@ -365,9 +377,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CB08F51C5A6377007CB846 /* 4.pic.jpg in Resources */,
 				F4CB08BC1C5A5D23007CB846 /* RengarAlbumTableViewCell.xib in Resources */,
+				F4CB08F21C5A6377007CB846 /* 1.pic.jpg in Resources */,
 				F4CB08881C5A5D13007CB846 /* LaunchScreen.storyboard in Resources */,
+				F4CB08F31C5A6377007CB846 /* 2.pic.jpg in Resources */,
 				F4CB08851C5A5D13007CB846 /* Assets.xcassets in Resources */,
+				F4CB08F41C5A6377007CB846 /* 3.pic.jpg in Resources */,
 				F4CB08831C5A5D13007CB846 /* Main.storyboard in Resources */,
 				F4CB08BE1C5A5D23007CB846 /* RengarAssetCollectionViewCell.xib in Resources */,
 			);
