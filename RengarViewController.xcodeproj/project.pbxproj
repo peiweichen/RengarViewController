@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CB087A1C5A5D13007CB846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08791C5A5D13007CB846 /* main.m */; };
+		F4CB087D1C5A5D13007CB846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB087C1C5A5D13007CB846 /* AppDelegate.m */; };
+		F4CB08801C5A5D13007CB846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB087F1C5A5D13007CB846 /* ViewController.m */; };
+		F4CB08831C5A5D13007CB846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08811C5A5D13007CB846 /* Main.storyboard */; };
+		F4CB08851C5A5D13007CB846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08841C5A5D13007CB846 /* Assets.xcassets */; };
+		F4CB08881C5A5D13007CB846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */; };
+		F4CB08931C5A5D13007CB846 /* RengarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08921C5A5D13007CB846 /* RengarViewControllerTests.m */; };
+		F4CB089E1C5A5D13007CB846 /* RengarViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB089D1C5A5D13007CB846 /* RengarViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CB088F1C5A5D13007CB846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CB086D1C5A5D13007CB846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CB08741C5A5D13007CB846;
+			remoteInfo = RengarViewController;
+		};
+		F4CB089A1C5A5D13007CB846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CB086D1C5A5D13007CB846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CB08741C5A5D13007CB846;
+			remoteInfo = RengarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4CB08751C5A5D13007CB846 /* RengarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RengarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CB08791C5A5D13007CB846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4CB087B1C5A5D13007CB846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4CB087C1C5A5D13007CB846 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4CB087E1C5A5D13007CB846 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4CB087F1C5A5D13007CB846 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4CB08821C5A5D13007CB846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4CB08841C5A5D13007CB846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CB08871C5A5D13007CB846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4CB08891C5A5D13007CB846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CB088E1C5A5D13007CB846 /* RengarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RengarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CB08921C5A5D13007CB846 /* RengarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RengarViewControllerTests.m; sourceTree = "<group>"; };
+		F4CB08941C5A5D13007CB846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CB08991C5A5D13007CB846 /* RengarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RengarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CB089D1C5A5D13007CB846 /* RengarViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RengarViewControllerUITests.m; sourceTree = "<group>"; };
+		F4CB089F1C5A5D13007CB846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CB08721C5A5D13007CB846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB088B1C5A5D13007CB846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB08961C5A5D13007CB846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CB086C1C5A5D13007CB846 = {
+			isa = PBXGroup;
+			children = (
+				F4CB08771C5A5D13007CB846 /* RengarViewController */,
+				F4CB08911C5A5D13007CB846 /* RengarViewControllerTests */,
+				F4CB089C1C5A5D13007CB846 /* RengarViewControllerUITests */,
+				F4CB08761C5A5D13007CB846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CB08761C5A5D13007CB846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB08751C5A5D13007CB846 /* RengarViewController.app */,
+				F4CB088E1C5A5D13007CB846 /* RengarViewControllerTests.xctest */,
+				F4CB08991C5A5D13007CB846 /* RengarViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CB08771C5A5D13007CB846 /* RengarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB087B1C5A5D13007CB846 /* AppDelegate.h */,
+				F4CB087C1C5A5D13007CB846 /* AppDelegate.m */,
+				F4CB087E1C5A5D13007CB846 /* ViewController.h */,
+				F4CB087F1C5A5D13007CB846 /* ViewController.m */,
+				F4CB08811C5A5D13007CB846 /* Main.storyboard */,
+				F4CB08841C5A5D13007CB846 /* Assets.xcassets */,
+				F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */,
+				F4CB08891C5A5D13007CB846 /* Info.plist */,
+				F4CB08781C5A5D13007CB846 /* Supporting Files */,
+			);
+			path = RengarViewController;
+			sourceTree = "<group>";
+		};
+		F4CB08781C5A5D13007CB846 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB08791C5A5D13007CB846 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4CB08911C5A5D13007CB846 /* RengarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB08921C5A5D13007CB846 /* RengarViewControllerTests.m */,
+				F4CB08941C5A5D13007CB846 /* Info.plist */,
+			);
+			path = RengarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F4CB089C1C5A5D13007CB846 /* RengarViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB089D1C5A5D13007CB846 /* RengarViewControllerUITests.m */,
+				F4CB089F1C5A5D13007CB846 /* Info.plist */,
+			);
+			path = RengarViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CB08741C5A5D13007CB846 /* RengarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CB08A21C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewController" */;
+			buildPhases = (
+				F4CB08711C5A5D13007CB846 /* Sources */,
+				F4CB08721C5A5D13007CB846 /* Frameworks */,
+				F4CB08731C5A5D13007CB846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RengarViewController;
+			productName = RengarViewController;
+			productReference = F4CB08751C5A5D13007CB846 /* RengarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CB088D1C5A5D13007CB846 /* RengarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CB08A51C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewControllerTests" */;
+			buildPhases = (
+				F4CB088A1C5A5D13007CB846 /* Sources */,
+				F4CB088B1C5A5D13007CB846 /* Frameworks */,
+				F4CB088C1C5A5D13007CB846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CB08901C5A5D13007CB846 /* PBXTargetDependency */,
+			);
+			name = RengarViewControllerTests;
+			productName = RengarViewControllerTests;
+			productReference = F4CB088E1C5A5D13007CB846 /* RengarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4CB08981C5A5D13007CB846 /* RengarViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CB08A81C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewControllerUITests" */;
+			buildPhases = (
+				F4CB08951C5A5D13007CB846 /* Sources */,
+				F4CB08961C5A5D13007CB846 /* Frameworks */,
+				F4CB08971C5A5D13007CB846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CB089B1C5A5D13007CB846 /* PBXTargetDependency */,
+			);
+			name = RengarViewControllerUITests;
+			productName = RengarViewControllerUITests;
+			productReference = F4CB08991C5A5D13007CB846 /* RengarViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CB086D1C5A5D13007CB846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chenpeiwei;
+				TargetAttributes = {
+					F4CB08741C5A5D13007CB846 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F4CB088D1C5A5D13007CB846 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F4CB08741C5A5D13007CB846;
+					};
+					F4CB08981C5A5D13007CB846 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F4CB08741C5A5D13007CB846;
+					};
+				};
+			};
+			buildConfigurationList = F4CB08701C5A5D13007CB846 /* Build configuration list for PBXProject "RengarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CB086C1C5A5D13007CB846;
+			productRefGroup = F4CB08761C5A5D13007CB846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CB08741C5A5D13007CB846 /* RengarViewController */,
+				F4CB088D1C5A5D13007CB846 /* RengarViewControllerTests */,
+				F4CB08981C5A5D13007CB846 /* RengarViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CB08731C5A5D13007CB846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CB08881C5A5D13007CB846 /* LaunchScreen.storyboard in Resources */,
+				F4CB08851C5A5D13007CB846 /* Assets.xcassets in Resources */,
+				F4CB08831C5A5D13007CB846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB088C1C5A5D13007CB846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB08971C5A5D13007CB846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CB08711C5A5D13007CB846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CB08801C5A5D13007CB846 /* ViewController.m in Sources */,
+				F4CB087D1C5A5D13007CB846 /* AppDelegate.m in Sources */,
+				F4CB087A1C5A5D13007CB846 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB088A1C5A5D13007CB846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CB08931C5A5D13007CB846 /* RengarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB08951C5A5D13007CB846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CB089E1C5A5D13007CB846 /* RengarViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CB08901C5A5D13007CB846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CB08741C5A5D13007CB846 /* RengarViewController */;
+			targetProxy = F4CB088F1C5A5D13007CB846 /* PBXContainerItemProxy */;
+		};
+		F4CB089B1C5A5D13007CB846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CB08741C5A5D13007CB846 /* RengarViewController */;
+			targetProxy = F4CB089A1C5A5D13007CB846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4CB08811C5A5D13007CB846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CB08821C5A5D13007CB846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CB08871C5A5D13007CB846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CB08A01C5A5D13007CB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4CB08A11C5A5D13007CB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CB08A31C5A5D13007CB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RengarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w.RengarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4CB08A41C5A5D13007CB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RengarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w.RengarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4CB08A61C5A5D13007CB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RengarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w.RengarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RengarViewController.app/RengarViewController";
+			};
+			name = Debug;
+		};
+		F4CB08A71C5A5D13007CB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RengarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w.RengarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RengarViewController.app/RengarViewController";
+			};
+			name = Release;
+		};
+		F4CB08A91C5A5D13007CB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RengarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w.RengarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RengarViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4CB08AA1C5A5D13007CB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RengarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w.RengarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RengarViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CB08701C5A5D13007CB846 /* Build configuration list for PBXProject "RengarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CB08A01C5A5D13007CB846 /* Debug */,
+				F4CB08A11C5A5D13007CB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CB08A21C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CB08A31C5A5D13007CB846 /* Debug */,
+				F4CB08A41C5A5D13007CB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4CB08A51C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CB08A61C5A5D13007CB846 /* Debug */,
+				F4CB08A71C5A5D13007CB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4CB08A81C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CB08A91C5A5D13007CB846 /* Debug */,
+				F4CB08AA1C5A5D13007CB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CB086D1C5A5D13007CB846 /* Project object */;
+}
