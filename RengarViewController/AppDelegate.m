@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "rengar/RengarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[RengarViewController new]];
+    self.window.rootViewController = nav;
     return YES;
 }
 

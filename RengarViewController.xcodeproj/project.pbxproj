@@ -15,6 +15,26 @@
 		F4CB08881C5A5D13007CB846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */; };
 		F4CB08931C5A5D13007CB846 /* RengarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08921C5A5D13007CB846 /* RengarViewControllerTests.m */; };
 		F4CB089E1C5A5D13007CB846 /* RengarViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB089D1C5A5D13007CB846 /* RengarViewControllerUITests.m */; };
+		F4CB08BA1C5A5D23007CB846 /* RengarAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08AD1C5A5D23007CB846 /* RengarAlbumsViewController.m */; };
+		F4CB08BB1C5A5D23007CB846 /* RengarAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08AF1C5A5D23007CB846 /* RengarAlbumTableViewCell.m */; };
+		F4CB08BC1C5A5D23007CB846 /* RengarAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08B01C5A5D23007CB846 /* RengarAlbumTableViewCell.xib */; };
+		F4CB08BD1C5A5D23007CB846 /* RengarAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08B21C5A5D23007CB846 /* RengarAssetCollectionViewCell.m */; };
+		F4CB08BE1C5A5D23007CB846 /* RengarAssetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CB08B31C5A5D23007CB846 /* RengarAssetCollectionViewCell.xib */; };
+		F4CB08BF1C5A5D23007CB846 /* RengarBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08B51C5A5D23007CB846 /* RengarBottomBar.m */; };
+		F4CB08C01C5A5D23007CB846 /* RengarPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08B71C5A5D23007CB846 /* RengarPanelView.m */; };
+		F4CB08C11C5A5D23007CB846 /* RengarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08B91C5A5D23007CB846 /* RengarViewController.m */; };
+		F4CB08DC1C5A5D6C007CB846 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08C61C5A5D6C007CB846 /* MASCompositeConstraint.m */; };
+		F4CB08DD1C5A5D6C007CB846 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08C91C5A5D6C007CB846 /* MASConstraint.m */; };
+		F4CB08DE1C5A5D6C007CB846 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08CB1C5A5D6C007CB846 /* MASConstraintMaker.m */; };
+		F4CB08DF1C5A5D6C007CB846 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08CD1C5A5D6C007CB846 /* MASLayoutConstraint.m */; };
+		F4CB08E01C5A5D6C007CB846 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08D11C5A5D6C007CB846 /* MASViewAttribute.m */; };
+		F4CB08E11C5A5D6C007CB846 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08D31C5A5D6C007CB846 /* MASViewConstraint.m */; };
+		F4CB08E21C5A5D6C007CB846 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08D51C5A5D6C007CB846 /* NSArray+MASAdditions.m */; };
+		F4CB08E31C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08D81C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F4CB08E41C5A5D6C007CB846 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08DA1C5A5D6C007CB846 /* View+MASAdditions.m */; };
+		F4CB08E71C5A5DF8007CB846 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */; };
+		F4CB08EA1C5A5E4D007CB846 /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */; };
+		F4CB08ED1C5A5E9C007CB846 /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB08EC1C5A5E9C007CB846 /* SZTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,49 @@
 		F4CB08991C5A5D13007CB846 /* RengarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RengarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CB089D1C5A5D13007CB846 /* RengarViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RengarViewControllerUITests.m; sourceTree = "<group>"; };
 		F4CB089F1C5A5D13007CB846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CB08AC1C5A5D23007CB846 /* RengarAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RengarAlbumsViewController.h; sourceTree = "<group>"; };
+		F4CB08AD1C5A5D23007CB846 /* RengarAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RengarAlbumsViewController.m; sourceTree = "<group>"; };
+		F4CB08AE1C5A5D23007CB846 /* RengarAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RengarAlbumTableViewCell.h; sourceTree = "<group>"; };
+		F4CB08AF1C5A5D23007CB846 /* RengarAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RengarAlbumTableViewCell.m; sourceTree = "<group>"; };
+		F4CB08B01C5A5D23007CB846 /* RengarAlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RengarAlbumTableViewCell.xib; sourceTree = "<group>"; };
+		F4CB08B11C5A5D23007CB846 /* RengarAssetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RengarAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		F4CB08B21C5A5D23007CB846 /* RengarAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RengarAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		F4CB08B31C5A5D23007CB846 /* RengarAssetCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RengarAssetCollectionViewCell.xib; sourceTree = "<group>"; };
+		F4CB08B41C5A5D23007CB846 /* RengarBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RengarBottomBar.h; sourceTree = "<group>"; };
+		F4CB08B51C5A5D23007CB846 /* RengarBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RengarBottomBar.m; sourceTree = "<group>"; };
+		F4CB08B61C5A5D23007CB846 /* RengarPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RengarPanelView.h; sourceTree = "<group>"; };
+		F4CB08B71C5A5D23007CB846 /* RengarPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RengarPanelView.m; sourceTree = "<group>"; };
+		F4CB08B81C5A5D23007CB846 /* RengarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RengarViewController.h; sourceTree = "<group>"; };
+		F4CB08B91C5A5D23007CB846 /* RengarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RengarViewController.m; sourceTree = "<group>"; };
+		F4CB08C51C5A5D6C007CB846 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F4CB08C61C5A5D6C007CB846 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F4CB08C71C5A5D6C007CB846 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F4CB08C81C5A5D6C007CB846 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F4CB08C91C5A5D6C007CB846 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F4CB08CA1C5A5D6C007CB846 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F4CB08CB1C5A5D6C007CB846 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F4CB08CC1C5A5D6C007CB846 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F4CB08CD1C5A5D6C007CB846 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F4CB08CE1C5A5D6C007CB846 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F4CB08CF1C5A5D6C007CB846 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F4CB08D01C5A5D6C007CB846 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F4CB08D11C5A5D6C007CB846 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F4CB08D21C5A5D6C007CB846 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F4CB08D31C5A5D6C007CB846 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F4CB08D41C5A5D6C007CB846 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F4CB08D51C5A5D6C007CB846 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F4CB08D61C5A5D6C007CB846 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F4CB08D71C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F4CB08D81C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F4CB08D91C5A5D6C007CB846 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F4CB08DA1C5A5D6C007CB846 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F4CB08DB1C5A5D6C007CB846 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F4CB08E51C5A5DF8007CB846 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F4CB08E81C5A5E4D007CB846 /* QBCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBCheckmarkView.h; path = ../QBCheckmarkView.h; sourceTree = "<group>"; };
+		F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBCheckmarkView.m; path = ../QBCheckmarkView.m; sourceTree = "<group>"; };
+		F4CB08EB1C5A5E9C007CB846 /* SZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZTextView.h; path = ../SZTextView.h; sourceTree = "<group>"; };
+		F4CB08EC1C5A5E9C007CB846 /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZTextView.m; path = ../SZTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +164,8 @@
 		F4CB08771C5A5D13007CB846 /* RengarViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F4CB08C41C5A5D6C007CB846 /* Masonry */,
+				F4CB08AB1C5A5D23007CB846 /* rengar */,
 				F4CB087B1C5A5D13007CB846 /* AppDelegate.h */,
 				F4CB087C1C5A5D13007CB846 /* AppDelegate.m */,
 				F4CB087E1C5A5D13007CB846 /* ViewController.h */,
@@ -108,6 +173,8 @@
 				F4CB08811C5A5D13007CB846 /* Main.storyboard */,
 				F4CB08841C5A5D13007CB846 /* Assets.xcassets */,
 				F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */,
+				F4CB08E51C5A5DF8007CB846 /* UIColor+Hex.h */,
+				F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */,
 				F4CB08891C5A5D13007CB846 /* Info.plist */,
 				F4CB08781C5A5D13007CB846 /* Supporting Files */,
 			);
@@ -138,6 +205,61 @@
 				F4CB089F1C5A5D13007CB846 /* Info.plist */,
 			);
 			path = RengarViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		F4CB08AB1C5A5D23007CB846 /* rengar */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB08B81C5A5D23007CB846 /* RengarViewController.h */,
+				F4CB08B91C5A5D23007CB846 /* RengarViewController.m */,
+				F4CB08AC1C5A5D23007CB846 /* RengarAlbumsViewController.h */,
+				F4CB08AD1C5A5D23007CB846 /* RengarAlbumsViewController.m */,
+				F4CB08AE1C5A5D23007CB846 /* RengarAlbumTableViewCell.h */,
+				F4CB08AF1C5A5D23007CB846 /* RengarAlbumTableViewCell.m */,
+				F4CB08B01C5A5D23007CB846 /* RengarAlbumTableViewCell.xib */,
+				F4CB08B11C5A5D23007CB846 /* RengarAssetCollectionViewCell.h */,
+				F4CB08B21C5A5D23007CB846 /* RengarAssetCollectionViewCell.m */,
+				F4CB08B31C5A5D23007CB846 /* RengarAssetCollectionViewCell.xib */,
+				F4CB08B41C5A5D23007CB846 /* RengarBottomBar.h */,
+				F4CB08B51C5A5D23007CB846 /* RengarBottomBar.m */,
+				F4CB08B61C5A5D23007CB846 /* RengarPanelView.h */,
+				F4CB08B71C5A5D23007CB846 /* RengarPanelView.m */,
+				F4CB08E81C5A5E4D007CB846 /* QBCheckmarkView.h */,
+				F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */,
+				F4CB08EB1C5A5E9C007CB846 /* SZTextView.h */,
+				F4CB08EC1C5A5E9C007CB846 /* SZTextView.m */,
+			);
+			path = rengar;
+			sourceTree = "<group>";
+		};
+		F4CB08C41C5A5D6C007CB846 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB08C51C5A5D6C007CB846 /* MASCompositeConstraint.h */,
+				F4CB08C61C5A5D6C007CB846 /* MASCompositeConstraint.m */,
+				F4CB08C71C5A5D6C007CB846 /* MASConstraint+Private.h */,
+				F4CB08C81C5A5D6C007CB846 /* MASConstraint.h */,
+				F4CB08C91C5A5D6C007CB846 /* MASConstraint.m */,
+				F4CB08CA1C5A5D6C007CB846 /* MASConstraintMaker.h */,
+				F4CB08CB1C5A5D6C007CB846 /* MASConstraintMaker.m */,
+				F4CB08CC1C5A5D6C007CB846 /* MASLayoutConstraint.h */,
+				F4CB08CD1C5A5D6C007CB846 /* MASLayoutConstraint.m */,
+				F4CB08CE1C5A5D6C007CB846 /* Masonry.h */,
+				F4CB08CF1C5A5D6C007CB846 /* MASUtilities.h */,
+				F4CB08D01C5A5D6C007CB846 /* MASViewAttribute.h */,
+				F4CB08D11C5A5D6C007CB846 /* MASViewAttribute.m */,
+				F4CB08D21C5A5D6C007CB846 /* MASViewConstraint.h */,
+				F4CB08D31C5A5D6C007CB846 /* MASViewConstraint.m */,
+				F4CB08D41C5A5D6C007CB846 /* NSArray+MASAdditions.h */,
+				F4CB08D51C5A5D6C007CB846 /* NSArray+MASAdditions.m */,
+				F4CB08D61C5A5D6C007CB846 /* NSArray+MASShorthandAdditions.h */,
+				F4CB08D71C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F4CB08D81C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F4CB08D91C5A5D6C007CB846 /* View+MASAdditions.h */,
+				F4CB08DA1C5A5D6C007CB846 /* View+MASAdditions.m */,
+				F4CB08DB1C5A5D6C007CB846 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +365,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CB08BC1C5A5D23007CB846 /* RengarAlbumTableViewCell.xib in Resources */,
 				F4CB08881C5A5D13007CB846 /* LaunchScreen.storyboard in Resources */,
 				F4CB08851C5A5D13007CB846 /* Assets.xcassets in Resources */,
 				F4CB08831C5A5D13007CB846 /* Main.storyboard in Resources */,
+				F4CB08BE1C5A5D23007CB846 /* RengarAssetCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +394,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CB08E11C5A5D6C007CB846 /* MASViewConstraint.m in Sources */,
+				F4CB08E71C5A5DF8007CB846 /* UIColor+Hex.m in Sources */,
+				F4CB08BD1C5A5D23007CB846 /* RengarAssetCollectionViewCell.m in Sources */,
+				F4CB08EA1C5A5E4D007CB846 /* QBCheckmarkView.m in Sources */,
+				F4CB08E01C5A5D6C007CB846 /* MASViewAttribute.m in Sources */,
 				F4CB08801C5A5D13007CB846 /* ViewController.m in Sources */,
+				F4CB08BA1C5A5D23007CB846 /* RengarAlbumsViewController.m in Sources */,
 				F4CB087D1C5A5D13007CB846 /* AppDelegate.m in Sources */,
+				F4CB08DC1C5A5D6C007CB846 /* MASCompositeConstraint.m in Sources */,
+				F4CB08DE1C5A5D6C007CB846 /* MASConstraintMaker.m in Sources */,
+				F4CB08E41C5A5D6C007CB846 /* View+MASAdditions.m in Sources */,
+				F4CB08ED1C5A5E9C007CB846 /* SZTextView.m in Sources */,
+				F4CB08DF1C5A5D6C007CB846 /* MASLayoutConstraint.m in Sources */,
+				F4CB08DD1C5A5D6C007CB846 /* MASConstraint.m in Sources */,
+				F4CB08BF1C5A5D23007CB846 /* RengarBottomBar.m in Sources */,
+				F4CB08BB1C5A5D23007CB846 /* RengarAlbumTableViewCell.m in Sources */,
+				F4CB08E21C5A5D6C007CB846 /* NSArray+MASAdditions.m in Sources */,
+				F4CB08E31C5A5D6C007CB846 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4CB08C01C5A5D23007CB846 /* RengarPanelView.m in Sources */,
 				F4CB087A1C5A5D13007CB846 /* main.m in Sources */,
+				F4CB08C11C5A5D23007CB846 /* RengarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
