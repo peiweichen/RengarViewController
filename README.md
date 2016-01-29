@@ -1,6 +1,7 @@
 # RengarViewController
 An custom animated imagePicker Controller can be moved by panning and scroll to change the size of image picking collectionView.Designed for iOS 8 with Photo framework ( PhotoKit )
- 1.Simply push instance of RengarViewController
+
+ 1.Simply push instance of RengarViewController,for instance
 
  2.Implement the delegate which has method that return the picked PHAsset and textView's text that you input.
 	
