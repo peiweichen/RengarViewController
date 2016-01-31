@@ -17,7 +17,7 @@ vc.delegate = self;
 - (void)rengarViewController:(RengarViewController *)rengarViewController didFinishPickingPhotoAsset:(PHAsset*)asset descriptionString:(NSString*)descriptionString;
 @end
 ```
-
+![alt tag](https://github.com/peiweichen/RengarViewController/blob/master/RengarViewController/rengar480.mov.gif)
 ![alt tag](https://github.com/peiweichen/RengarViewController/blob/master/RengarViewController/2.pic.jpg)
 ![alt tag](https://github.com/peiweichen/RengarViewController/blob/master/RengarViewController/3.pic.jpg)
 ![alt tag](https://github.com/peiweichen/RengarViewController/blob/master/RengarViewController/1.pic.jpg)
