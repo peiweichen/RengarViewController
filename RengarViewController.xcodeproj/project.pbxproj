@@ -112,8 +112,8 @@
 		F4CB08D91C5A5D6C007CB846 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
 		F4CB08DA1C5A5D6C007CB846 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
 		F4CB08DB1C5A5D6C007CB846 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F4CB08E51C5A5DF8007CB846 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F4CB08E51C5A5DF8007CB846 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "../UIColor+Hex.h"; sourceTree = "<group>"; };
+		F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "../UIColor+Hex.m"; sourceTree = "<group>"; };
 		F4CB08E81C5A5E4D007CB846 /* QBCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBCheckmarkView.h; path = ../QBCheckmarkView.h; sourceTree = "<group>"; };
 		F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBCheckmarkView.m; path = ../QBCheckmarkView.m; sourceTree = "<group>"; };
 		F4CB08EB1C5A5E9C007CB846 /* SZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZTextView.h; path = ../SZTextView.h; sourceTree = "<group>"; };
@@ -172,7 +172,6 @@
 		F4CB08771C5A5D13007CB846 /* RengarViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F4CB08C41C5A5D6C007CB846 /* Masonry */,
 				F4CB08AB1C5A5D23007CB846 /* rengar */,
 				F4CB087B1C5A5D13007CB846 /* AppDelegate.h */,
 				F4CB087C1C5A5D13007CB846 /* AppDelegate.m */,
@@ -185,8 +184,6 @@
 				F4CB08811C5A5D13007CB846 /* Main.storyboard */,
 				F4CB08841C5A5D13007CB846 /* Assets.xcassets */,
 				F4CB08861C5A5D13007CB846 /* LaunchScreen.storyboard */,
-				F4CB08E51C5A5DF8007CB846 /* UIColor+Hex.h */,
-				F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */,
 				F4CB08891C5A5D13007CB846 /* Info.plist */,
 				F4CB08781C5A5D13007CB846 /* Supporting Files */,
 			);
@@ -222,6 +219,7 @@
 		F4CB08AB1C5A5D23007CB846 /* rengar */ = {
 			isa = PBXGroup;
 			children = (
+				F4CB08C41C5A5D6C007CB846 /* Masonry */,
 				F4CB08B81C5A5D23007CB846 /* RengarViewController.h */,
 				F4CB08B91C5A5D23007CB846 /* RengarViewController.m */,
 				F4CB08AC1C5A5D23007CB846 /* RengarAlbumsViewController.h */,
@@ -236,10 +234,12 @@
 				F4CB08B51C5A5D23007CB846 /* RengarBottomBar.m */,
 				F4CB08B61C5A5D23007CB846 /* RengarPanelView.h */,
 				F4CB08B71C5A5D23007CB846 /* RengarPanelView.m */,
-				F4CB08E81C5A5E4D007CB846 /* QBCheckmarkView.h */,
-				F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */,
+				F4CB08E51C5A5DF8007CB846 /* UIColor+Hex.h */,
+				F4CB08E61C5A5DF8007CB846 /* UIColor+Hex.m */,
 				F4CB08EB1C5A5E9C007CB846 /* SZTextView.h */,
 				F4CB08EC1C5A5E9C007CB846 /* SZTextView.m */,
+				F4CB08E81C5A5E4D007CB846 /* QBCheckmarkView.h */,
+				F4CB08E91C5A5E4D007CB846 /* QBCheckmarkView.m */,
 			);
 			path = rengar;
 			sourceTree = "<group>";
@@ -271,7 +271,8 @@
 				F4CB08DA1C5A5D6C007CB846 /* View+MASAdditions.m */,
 				F4CB08DB1C5A5D6C007CB846 /* View+MASShorthandAdditions.h */,
 			);
-			path = Masonry;
+			name = Masonry;
+			path = ../Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -654,6 +655,7 @@
 				F4CB08A41C5A5D13007CB846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CB08A51C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +664,7 @@
 				F4CB08A71C5A5D13007CB846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CB08A81C5A5D13007CB846 /* Build configuration list for PBXNativeTarget "RengarViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +673,7 @@
 				F4CB08AA1C5A5D13007CB846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
